@@ -28,6 +28,10 @@ table {
   width: 60%;
 }
 
+.center>h1 {
+  text-align: center;
+}
+
 tr[employmentPercent-category="0"]:nth-child(even) {
   background-color: #f2f2f2;
 }
