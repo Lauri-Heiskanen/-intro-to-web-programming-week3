@@ -1,0 +1,48 @@
+body {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+td {
+  padding: 6px;
+  border-bottom: 1px solid gray;
+}
+
+th {
+  background-color: #b7d0ff;
+  font-weight: bold;
+  padding: 12px 0px 12px 6px;
+  border-bottom: 2px solid gray;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 16px;
+  text-align: left;
+  table-layout: fixed;
+  width: 100%;
+}
+h1 {
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+  padding: 60px;
+  width: 60%;
+}
+
+tr[employmentPercent-category="0"]:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr[employmentPercent-category="0"]:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tr[employmentPercent-category="1"] {
+  background-color: #ff9e9e;
+}
+
+tr[employmentPercent-category="2"] {
+  background-color: #abffbd;
+}
