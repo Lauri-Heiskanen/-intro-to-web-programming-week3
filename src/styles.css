@@ -27,9 +27,6 @@ table {
   padding: 60px;
   width: 60%;
 }
-h1.center {
-  text-align: center;
-}
 
 tr[employmentPercent-category="0"]:nth-child(even) {
   background-color: #f2f2f2;
